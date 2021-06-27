@@ -1,0 +1,25 @@
+.team__social__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-top: 16px;
+ }
+ .team__social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50%;
+    fill: var(--social-icon-color);
+    transition: color var(--transition-duration) var(--timing-function), background-color var(--transition-duration) var(--timing-function);
+
+    &:hover, 
+    &:focus {
+        background-color: var(--special-color);
+        fill: var(--main-color);
+    }
+ } 
+ .team__social_icon{
+    width: 20px;
+    height: 20px;
+ }

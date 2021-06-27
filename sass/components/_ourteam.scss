@@ -1,0 +1,46 @@
+.our__team {
+    background-color:var(--bg-team-filter);
+
+    h2 {
+        font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: inherit;
+    }
+ }
+ .team-members {
+    flex-direction: column;
+ }
+ .team-members__list {
+    display: flex;
+    margin-top:50px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.187;
+        letter-spacing: inherit;
+    }
+    p {
+        font-size:16px;
+        letter-spacing: inherit;
+        text-align: center;
+        line-height: 1.187;
+        margin-top: 10px;
+        color: var(--second-text-color);
+    }
+ }
+ .team-members__item {
+    background-color: var(--main-color);
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+    margin-right: var(--basic-card-gap);
+ }
+ .card__description {
+    padding:30px;
+ }
