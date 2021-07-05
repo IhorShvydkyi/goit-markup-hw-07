@@ -1042,30 +1042,26 @@ a.active {
   cursor: pointer;
 }
 
-.portfolio {
-  flex-direction: column;
-}
-
-.filter__list {
+.filter {
   justify-content: center;
   margin-bottom: 50px;
   display: flex;
 }
 
-.filter__list:last-child {
-  margin-right: 0;
-}
-
-.filter__list .filter-link-blue {
+.filter .filter-link-blue {
   background-color: var(--special-color);
   color: var(--main-color);
 }
 
-.filter__list__item {
+.filter__item {
   margin-right: 8px;
 }
 
-.filter__list button {
+.filter__item:last-child {
+  margin-right: 0;
+}
+
+.filter button {
   padding: 6px 22px;
   background-color: var(--bg-team-filter);
   font-size: 16px;
@@ -1078,14 +1074,14 @@ a.active {
   transition: color var(--transition-duration) var(--timing-function), background-color var(--transition-duration) var(--timing-function), box-shadow var(--transition-duration) var(--timing-function);
 }
 
-.filter__list button:hover, .filter__list button:focus {
+.filter button:hover, .filter button:focus {
   cursor: pointer;
   background: var(--special-color);
   color: var(--main-color);
   box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
-.pattern__list {
+.pattern {
   margin-top: calc(-1* var(--basic-card-gap));
   margin-left: calc(-1* var(--basic-card-gap));
   display: flex;
@@ -1112,15 +1108,7 @@ a.active {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.pattern__link h3 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-text-color);
-}
-
-.pattern__link .card__thumb {
+.pattern__link .card-thumb {
   position: relative;
   overflow: hidden;
 }
@@ -1157,6 +1145,14 @@ a.active {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
+}
+
+.pattern__card-description h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
 }
 
 .pattern__card-description p {

@@ -1,4 +1,4 @@
-.pattern__list {
+.pattern {
     margin-top:calc(-1* var(--basic-card-gap));
     margin-left:calc(-1* var(--basic-card-gap));
     display:flex;
@@ -22,14 +22,7 @@
     &:focus {
         box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
-    h3 {
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        color: var(--main-text-color);
-    }
-    .card__thumb {
+    .card-thumb {
         position: relative;
         overflow: hidden;
     }
@@ -63,6 +56,14 @@
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
+
+    h3 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--main-text-color);
+    }
     p {
         color: var(--second-text-color);
         font-size: 16px;

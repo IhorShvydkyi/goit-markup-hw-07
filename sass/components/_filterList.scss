@@ -1,20 +1,21 @@
-.filter__list {
+.filter {
     justify-content: center;
     margin-bottom: 50px;
     display:flex;
 
-    &:last-child{
-        margin-right: 0;
-    }
     .filter-link-blue {
         background-color: var(--special-color);
         color: var(--main-color);
     }
     &__item {
         margin-right: 8px;
+
+        &:last-child{
+            margin-right: 0;
+        }
     } 
  }
- .filter__list button {
+ .filter button {
     padding: 6px 22px;
     background-color: var(--bg-team-filter);
     font-size: 16px;
