@@ -1,12 +1,5 @@
-.business-section {
+.section-no-padding {
     padding: 0px 0 94px 0;
-
-    h2 {
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 1.166;
-        text-align: center;
-    }
  }
 .business {
     flex-direction: column;
@@ -24,10 +17,10 @@
     margin-right: var(--basic-card-gap);
     margin-top: 0;
  }
- .doing__card {
+ .business__item__card {
     position: relative;
  }
- .label {
+ .business__item__card__label {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -40,7 +33,4 @@
     color: var(--main-color);
     background-color: var(--background-opacity);
  }
- .card__thumb > img {
-    max-width: 100%;
-    display: block;
-  }
+ 

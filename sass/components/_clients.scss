@@ -1,21 +1,15 @@
-.clients h2 {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.166;
-    text-align: center;
-    letter-spacing: inherit;
- }
- .clients__list {
+
+ .clients {
     display: flex;
     margin-top: 50px;
-
-    &:last-child {
-        margin-right: 0;
-    }
  }
  .clients__item {
     flex-basis: calc((100% - 6 * var(--basic-card-gap)) / 6);
     margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+  }
  }
  .clients__link {
     padding: 12px 32px;
